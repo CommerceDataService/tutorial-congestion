@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>De obstructium natura</title>
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/parallax.js"></script><!-- Parallax Banner -->
+    <script src="js/navbar.hide.js"></script><!-- Hide Navbar -->
+    <script src="js/scroll.js"></script><!-- Affix Sidebar/Scroll Functions -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'><!-- Google Font for Title -->
+    <link rel="stylesheet" type="text/css" href="css/cdup_tutorial.css"><!-- Custom Theme for know.data tutorial -->
+
+    <!-- Syntax Highlighting -->
+    <!-- Support for the following languages: -->
+    <!-- Apache, Bash, C#, C++, CSS, CoffeeScript, Device Tree, Diff, HTML, XML, HTTP, Ini, JSON, Java, JavaScript, Makefile, Markdown, Nginx, Objective-C, PHP, Perl, Python, Ruby, SQL, Fortran, Julia, Lisp, Lua, Mathematica, Matlab, Python-Profile, R, Scilab, Scala, Stata, Swift -->
+    <link rel="stylesheet" type="text/css" href="css/styles/github.css"><!-- Style for highlighting Code: Default to Github -->
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><!-- Activate Code Highlighting -->
+
+    <script language="javascript" type="text/javascript">
+      function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+      }
+    </script>
+
+</head>
+<body>
+    <nav id='navbar' class="nav navbar-default navbar-fixed-top navbar-border"><!-- Navbar -->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-links" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar-color" href="https://commerce.gov/datausability"><strong>Data Usability</strong></a>
+            </div> <!-- navbar-header -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="collapse-links">
+                <ul class="nav navbar-nav navbar-color">
+                    <li class="disclaimer"><a href="https://commerce.gov/datausability">a project by Commerce Data Service</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navbar-color">
+                    <li><a href="https://www.commerce.gov/datausability/">Index</a></li>
+                    <li><a href="http://datausa.io/">Data USA</a></li>
+                    <li><a href="http://www2.deloitte.com/global/en.html">Deloitte</a></li>
+                    <li><a href="http://www.datawheel.us/">Datawheel</a></li>
+                </ul>
+            </div><!-- navbar-collapse -->
+        </div><!-- container-fluid -->
+    </nav>
+
+    <!-- Banner -->
+    <section class="scroll">
+        <div class="scroll-overlay ">
+            <div class="title headtext">
+                <h1><span class="title-line" style="font-size:150%;">IMPACT OF SPENDING ON TRAFFIC CONGESTION</span></h1>
+                <h5><span class="title-line">by PETER VIECHNICKI, STRATEGIC ANALYSIS MANAGER, DELOITTE SERVICES LP,</span></h5>
+                <h5><span class="title-line">ZACH WHITMAN, SENIOR CONSULTANT, DELOITTE ADVISORY LP,</span></h5>
+                <h5><span class="title-line">JONATHAN SPEISER, DATAWHEEL</span></h5>
+                <h5><span class="title-line">DAVE LANDRY, DATAWHEEL</span></h5>
+                <h5><span class="title-line">edited by STAR YING, COMMERCE DATA SERVICE</span></h5>
+                <h5><span class="title-line">JUNE 2016</span></h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Body -->
+    
+    <section>
+        <div class="container-fluid content">
+            <div class="row">
+                
+                    
+                <div id='' class="hidden-xs hidden-sm col-lg-6 col-md-6">
+                    <a href="https://commerce.gov/dataservice"><img class="footlogo" width="160px" src="img/CDS-horizontal-v2.jpg"/></a>
+                    <a href="http://www2.deloitte.com/global/en.html"><img class="footlogo" width="160px" src="img/DeloitteNewLogo.png"/></a>
+                    <a href="http://www.datawheel.us/"><img class="footlogo" width="160px" src="img/datawheel-horizontal.png"/></a>                    
+                </div>
+                <div id='content' class="col-lg-6 col-md-6">
+                    <em>As part of the <a href="https://www.commerce.gov/datausability/">Commerce Data Usability Project</a>, experts from <a href="http://www2.deloitte.com/global/en.html">Deloitte</a> and <a href="http://www.datawheel.us/">Datawheel</a> have created a tutorial that explores United States traffic congestion through the <a href="http://datausa.io/">Data USA</a> platform. If you have question, feel free to reach out to the Commerce Data Service at <a href="mailto:DataUsability@doc.gov">DataUsability@doc.gov</a>.</em>
+                </div>
+            </div>
+            <hr>
+            
+            <br>
+            
+            <div class="row">
+                <div id='content' class="col-lg-10 col-md-10"><!-- Content -->
+
+                <section id='intro'>
+
+                    <h2 class="sectionhead">topics covered</h2>
+                    <h5>Languages and libraries: JavaScript, shell scripting, HTML, python, D3.js, D3plus, leaflet, and jQuery</h5>
+                    <h5>Data: Average commute times from the American Community Survey via Data USA.io and Congestion relief projects from USASpending.gov</h5>
+
+                    <h2 class="sectionhead">foreword</h2>
+                    <p>Everyone hates traffic, and for most of us, it seems to be getting worse with every passing year. But how does traffic congestion in our home town actually compare to other cities across the country, and what is the government doing about it? These are complicated questions, but we can begin to answer them by comparing data on commuting times with data on public spending on congestion relief projects. The resulting mashup can enable us to see the extent to which government spending through formula grants and related programs from the Department of Transportation aligns with high-congestion regions. Data on commute times is collected by the Census Bureau's American Community Survey each year, and we'll access these data via <a href=”datausa.io”>Data USA's</a> convenient API. Spending data is provided by the Treasury Department on <a href="https://www.usaspending.gov/Pages/Default.aspx">USASpending.gov</a>. In this tutorial, we'll show you how to build a simple web visualization which mashes up these two datasets and allows users to start to get answers to questions about congestion mitigation spending.</p>
+
+                    <p>In this tutorial we'll walk you through all the steps of replicating our data-visualization which mashes up statistics on average commuting times with data on congestion relief projects funded by the Department of Transportation.  You'll learn how to load the required software to build the mashup, how to use basic shell scripting commands to make a directory structure where your visualization app can live, how to pull the code for the app from our open-source code repository on GitHub, and how to run a simple web server.  For those who want more information about using API calls to access data dynamically, we'll walk through the structure of those functions in an appendix.</p>
+
+                </section>
+
+                <section id="step1">
+                    <h2 class="sectionhead">Step 1: Install basic building blocks</h2>
+                    <p>To set up your environment to build this visualization, you'll first need to install some fundamental tools.  For instructions on installing each of the tools listed below, please refer to the software's own installation page. (We've included links to those for your convenience.)</p>
+                    
+                    <ul>
+                        <li>For Windows, you'll want a UNIX emulator like <a href=https://cygwin.com/install.html>Cygwin</a> or <a href=https://msdn.microsoft.com/powershell>Powershell</a>.</li>
+                        <li>Mac users can use your native <a href=http://www.techradar.com/us/how-to/computing/apple/11-unix-commands-every-mac-geek-should-know-1305666>Terminal</a>.</li>
+                        <li><a href=” https://www.python.org/downloads/”>Python 2.7</a> or higher.</li>
+                    </ul>
+
+                    <p>Building this visualization will require that you execute simple unix-style commands.  If you're not comfortable doing so, you may want to pause here before proceeding and study a simple online tutorials such as the following: <a href=http://ryanstutorials.net/linuxtutorial/>a</a>, <a href=http://linuxcommand.org/>b</a>, and <a “https://www.udacity.com/course/linux-command-line-basics--ud595”?>c</a>.</p>
+
+                </section>
+
+                <section id="step2">
+
+                    <h2 class="sectionhead">Step 2: Create root directory</h2>
+
+                    <p>With your newly-minted unix command-line skills, fire up your terminal and create a directory where the visualization software can live. It should be somewhere in the file system where you can find it again. On a windows machine, c:\Users\<myusername>\sandbox might be a good place. We'll refer to this directory in the instructions below as 'PROJECT_ROOT'.</p>
+                    
+                </section>
+
+                <section id="step3">
+                    <h2 class="sectionhead">Step 3: Pull source code from github</h2>
+
+                    <ul>
+                        <li>Register as a github user on github.io.</li>
+                        <li>Change directories to your new root directory.</li>
+                        <li>Initiate a github project in that directory: 
+                                <pre><code class="bash">git init</code></pre></li>
+                        <li>Connect your new git project to our tutorial source code repository: 
+                                <pre><code class="bash">git remote add origin https://github.com/DataUSA/datausa-tutorials.git</code></pre></li>
+                        <li>Use git pull origin master to pull the tutorial source code for this project: 
+                                <pre><code class="bash">git pull origin master</code></pre></li>
+                    </ul>
+
+                    <p>Here's a tutorial from github which walks you through how to perform all these steps: <a href="https://try.github.io/levels/1/challenges/1">https://try.github.io/levels/1/challenges/1</a>.</p>
+                </section>
+
+                <section id="step4">
+                    <h2 class="sectionhead">Step 4: Load required libraries</h2>
+
+                    <p>Thanks to git, your new PROJECT_ROOT directory now contains a sub-directory called 'js' where we'll store javascript libraries and files.  Download/unzip the following javascript libraries into that directory.</p>
+
+                    <ul>
+                        <li><a href=”http://d3plus.org/d3plus.zip”>D3plus.js</a></li>
+                        <li><a href=”http://leafletjs.com/download.html“>leaflet.js</a>, version 0.7.7 or later.</li>
+                    </ul>
+                </section>
+
+                <section id="step5">
+                    <h2 class="sectionhead">Step 5: Download flat files, convert to json</h2>
+
+                    <p>In your project root directory, you'll see a sub-directory for csv files where we'll store flat files containing information about congestion relief spending from <a href="https://www.usaspending.gov">USASpending.gov</a>.</p>
+
+                    <p>In your web browser, visit the USASpending advanced download page: <a href="https://www.usaspending.gov/Pages/AdvancedSearch.aspx">https://www.usaspending.gov/Pages/AdvancedSearch.aspx</a>.  Select the following options for your data request:</p>
+
+                    <ol>
+                        <li>Spending type: 
+                        <ul style="list-style:none">
+                            <li><code class="nohighlight">Grants</code></li>
+                            <li><code class="nohighlight">Other Financial Assistance</code></li>
+                        </ul></li>
+                        <li>Fiscal year:
+                        <ul style="list-style:none">
+                            <li><code class="nohighlight">2016 (or your choice)</code></li>
+                        </ul></li>
+                        <li>Search within:
+                        <ul style="list-style:none">
+                            <li><code class="nohighlight">States/Territories</code></li>
+                        </ul></li>
+                        <li>Awarding Agency:
+                        <ul style="list-style:none">
+                            <li><code class="nohighlight">Department of Transportation</code></li>
+                        </ul></li>
+                        <li>Awarding Bureaus:
+                        <ul style="list-style:none">
+                            <li><code class="nohighlight">Department of Transportation - [6900]</code></li>
+                            <li><code class="nohighlight">Federal Highway Administration - [6925]</code></li>
+                            <li><code class="nohighlight">Federal Motor Carrier Safety Administration - [6953]</code></li>
+                            <li><code class="nohighlight">National Highway Traffic Safety Administration - [6940]</code></li>
+                            <li><code class="nohighlight">Research and Innovative Technology Administration - [6943]</code></li>
+                            <li><code class="nohighlight">Surface Transportation Board - formerly ICC - [6959]</code></li>
+                        </ul></li>
+                        <li>Submit your request and download and unzip the result to the csv subdirectory.</li>
+                    </ol>
+
+                    <p>Next we'll convert the file from comma-separated-value format to json (javascript object notation) to make it easier for our visualization to read it.</p>
+
+                    <ul>
+                        <li>Go back to your command line, and change directories so you're working directory is <code>PROJECT_ROOT/csv</code>.</li>
+                        <li>Now we're going to execute a python utility which will convert the file from cvs to json: 
+                        <pre><code class="bash">python ../utils/csv2json.py assistance.csv</code></pre></li>
+                    </ul>
+
+                    <p>The <code>csv2json.py</code> python program converts a CSV from USAspending and returns a JSON. We cover how the code works below which is adapted from <a href="http://stackoverflow.com/questions/19697846/python-csv-to-json">http://stackoverflow.com/questions/19697846/python-csv-to-json</a>. First we import the necessary packages:</p>
+
+                    <ul>
+                        <li><code>csv</code> to import the USAspending file,</li>
+                        <li><code>json</code> to export to the desired JSON format,</li>
+                        <li><code>sys</code> to read command line arguments,</li>
+                        <li>and <code>re</code> to use regular expressions for splitting lines.</li>
+                    </ul>
+
+<pre><code class="python">usage = "Usage: python csv2json.py csvFilename"
+
+import csv #CSV library
+import json #JSON library
+import sys #to read command line args
+import re #regular expressions library, for splitting lines</code></pre>
+
+                    <p>Next we define a function <code>readFieldNames</code> function to get the names of every field and split according to regular expression.</p>
+
+<pre><code class="python">#----------------------------------------------------------------------#
+# Helper functions                                                     #
+#----------------------------------------------------------------------#
+def readFieldNames(filehandle):
+        #read the first line
+        firstLine = filehandle.readline().rstrip()
+        
+        #split into fields, store in array
+        fieldNames = re.split(r'\s*,\s*', firstLine)
+#        sys.stderr.write(fieldNames)
+        return fieldNames</code></pre>
+
+                    <p>For the main program, we define several functionalities. First, to parse the command-line arguments and second, to convert the passed CSV to the desired JSON with the appropriate structure to mash with Data USA.</p>
+
+<pre><code class="python">#----------------------------------------------------------------------#
+# Main functionality                                                   #
+#----------------------------------------------------------------------#
+
+#Check arguments for validity
+if (len(sys.argv) != 2):
+        sys.exit(usage)
+
+#CSV filename should be first argument
+csvFilename = sys.argv[1]
+if (csvFilename.endswith('.csv') == False):
+    sys.exit("Input filename should be in .csv format.")
+
+#Formulate name for json file
+jsonFilename = csvFilename.replace('.csv', '.json')
+    
+try:
+    csvFile = open(csvFilename, 'r')
+    fieldNames = readFieldNames(csvFile)
+    csvFile.close
+except IOError:
+    sys.exit("Error: couldn't open input file.")
+
+#Open the json file for writing
+jsonFile = open(jsonFilename, 'w')
+
+#Reopen the csvfile, this time to read the values
+csvFile = open(csvFilename, 'r')
+reader = csv.DictReader(csvFile)
+
+'''fieldnames = ('unique_transaction_id','transaction_status','fyq',
+    'cfda_program_num','sai_number','account_title','recipient_name',
+    'recipient_city_code','recipient_city_name','recipient_county_code',
+    'recipient_county_name','recipient_zip','recipient_type','action_type',
+    'agency_code','federal_award_id','federal_award_mod',
+    'fed_funding_amount','non_fed_funding_amount','total_funding_amount',
+    'obligation_action_date','starting_date','ending_date','assistance_type',
+    'record_type','correction_late_ind','fyq_correction',
+    'principal_place_code','principal_place_state','principal_place_cc',
+    'principal_place_country_code','principal_place_zip',
+    'principal_place_cd','cfda_program_title','agency_name',
+    'project_description','duns_no','duns_conf_code','progsrc_agen_code',
+    'progsrc_acnt_code','progsrc_subacnt_code','receip_addr1',
+    'receip_addr2','receip_addr3','face_loan_guran','orig_sub_guran',
+    'fiscal_year','principal_place_state_code','recip_cat_type',
+    'asst_cat_type','recipient_cd','maj_agency_cat','rec_flag',
+    'recipient_country_code','uri','recipient_state_code','exec1_fullname',
+    'exec1_amount','exec2_fullname','exec2_amount','exec3_fullname',
+    'exec3_amount','exec4_fullname','exec4_amount','exec5_fullname',
+    'exec5_amount','last_modified_date')
+'''
+
+#Empty list to store the values
+output = []
+
+#Create new associative array for key/value pairs, append to output list
+for each in reader:
+    row = {}
+    for field in fieldNames:
+        row[field] = each[field]
+    output.append(row)
+
+json.dump(output, jsonFile, indent=2, sort_keys=True)</code></pre>
+
+                    <p>This utility will have created a large file called assistance.json.  Move that file to the json directory:</p>
+                    <pre><code class="bash">mv assistance.json ../json/</code></pre>
+
+                </section>
+
+                <section id="step6">
+                    <h2 class="sectionhead">Step 6: Start web server</h2>
+                    <p>In order for your browser to be able to render the visualization, you need to have a web server running which can serve up the files to the browser.  There are various ways to run your own web server (you can download and run XAMPP or similar).  But let's use a simpler solution, and invoke the web server from the command line.</p>
+
+                    <ul>
+                        <li>Open another terminal window.</li>
+                        <li>Change directories to your PROJECT_ROOT directory.</li>
+                        <li>Execute this command: <pre><code class="bash">python -m SimpleHTTPServer 8000</code></pre></li>
+                    </ul>
+
+                    <p>This will start serving HTTP files from port 8000.</p>
+                </section>
+
+                <section id="step7">
+                    <h2 class="sectionhead">Step 7: Fire up your mashup in the browser and explore!</h2>
+
+                    <ul>
+                        <li>Now you're ready to open your browser, and direct it to this url: http://localhost:8000/tutorial_layout.html</li>
+                        <li>Select your state and metro area from the dropdowns, and you're off to the races.</li>
+                    </ul>
+                    
+                    <div style="outline:#7f8c8d solid thick; margin-top:20px;">
+                    <iframe src="viz/tutorial_layout.html" style="width:100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+                    </div>
+                </section>
+
+                <section id="app">
+                    <h2 class="sectionhead">Appendix: Understanding the Data USA API call</h2>
+
+                    <p>Let's look under the hood a little bit to understand how this mashup pulls data on commuting times from Data USA's API. This functionality is found in the file <code>./js/build_commute_times_viz.js</code>, which also calls supporting functions contained in <code>./js/barGraphHelperFunctions.js</code>.</p>
+
+                    <p>This set of functions calls the Data USA three times – once to get the commute times for all MSAs, a second time to get the names for each metropolitan statistical area (MSA) to label the bars, and a third time to get the national average.  (Future versions of Data USA will allow calls 1 and 2 to be accomplished with a single API call.) The results from each API call are folder together and reformatted into an array of javascript objects such that d3plus can render them into a nice bar graph.</p>
+
+                    <p>We use an asynchronous XMLHTTP request to retrieve the information in each of the three API calls. Inspired by Marijn Haverbeke's Eloquent Javascript book (pp 309ff), we perform the call by instantiating a new promise for each request which allows us to perform the calls in sequence, as each one completes. The code snippet below shows how the XMLHttpRequest is wrapped in a function which creates a new promise object, which returns succeed once the http get request completes.</p>
+
+<pre><code class="javascript">function get(url) {
+    return new Promise(function(succeed, fail) {
+        var req = new XMLHttpRequest();
+        req.open("GET", url, true);
+        req.addEventListener("load", function() {
+            if (req.status < 400)
+                succeed(req.responseText);
+            else
+                fail(new Error("Request failed: " + req.statusText));
+        });
+        req.addEventListener("error", function() {
+            fail(new Error("Network error"));
+        });
+        req.send(null);
+    });
+}</code></pre>
+
+                    <p>As each promise reports completion to us, we fold the resulting data together using utility functions.  For example, to combine the average commuting time value for each MSA with the name of the MSA, we use the function in the code snippet below:</p>
+
+<pre><code class="javascript">function addMSANames(data, msaNames) {
+    var dataWithNames = [];
+
+    //Only need fields 8 and 9
+    //Add field 7 to back end of data where field 8 matches geo
+    for (var i = 0; i < data.length; i++) {
+        var newDataRow = {};
+        newDataRow = data[i];
+        for (var j = 0; j < msaNames.length; j++) {
+        if (msaNames[j][8] == data[i].geo) {
+            newDataRow.msaName = msaNames[j][7];
+            break;
+        }
+        }
+        dataWithNames.push(newDataRow);
+    }
+    return dataWithNames;
+}</code></pre>
+
+                    <p>The way this function works is we first create an empty array to hold the results of the merge.  Then we loop through each object of the commute times data array.  For each of those objects, we find the row of the MSA names data which matches, append the name of the MSA to our object, and push the row into our results array. Finally, we return the results array of objects.</p>
+                </section>
+               
+                </div><!-- Content -->
+                  
+                <div id='sidebar' class="hidden-xs hidden-sm col-lg-2 col-md-2"><!-- Sidebar -->
+                       
+                    <ul id='featured-nav' class="nav nav-list featured-nav nav-stacked">
+                      
+                        
+                        <li>
+                            <ul class="fa-style"><!-- Font Awesome -->
+                               <!-- <li><a href="https://github.com/CommerceDataService/tutorial_ms_powerbi"><i class="fa fa-file-archive-o fa-lg"></i></a></li>
+                                <li><a href="https://github.com/CommerceDataService/tutorial_ms_powerbi"><i class="fa fa-file-code-o fa-lg"></i></a></li>
+                                <li><a href="https://github.com/CommerceDataService/tutorial_ms_powerbi"><i class="fa fa-github-square fa-lg"></i></a></li>-->
+                            </ul>
+                        </li>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            <ul class="fa-style"><!-- Font Awesome -->
+                                <!--<li><a href="https://github.com/CommerceDataService/tutorial_ms_powerbi"><i class="fa fa-file-archive-o fa-lg"></i></a></li>
+                                <li><a href="https://github.com/CommerceDataService/tutorial_ms_powerbi"><i class="fa fa-file-code-o fa-lg"></i></a></li>
+                                <li><a href="https://github.com/CommerceDataService/tutorial_ms_powerbi" title="Github Repo for MS Power BI Part 1"><i class="fa fa-github-square fa-lg"></i></a></li>-->
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="fa-style"><!-- Font Awesome -->
+                                <li><a href="https://github.com/CommerceDataService/" title="Github Repo for Tutorial"><i class="fa fa-github-square fa-lg"></i></a></li>
+                                <li><a href="https://twitter.com/Deloitte" title="Twitter handle for Deloitte"><i class="fa fa-twitter-square fa-lg"></i></a></li><!-- Haven't added the SNS components -->
+                                <li><a href="https://twitter.com/datawheel" title="Twitter handle for Datawheel"><i class="fa fa-twitter-square fa-lg"></i></a></li><!-- Haven't added the SNS components -->
+                                <!--<li><a href=""><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook-square fa-lg"></i></a></li>-->
+                            </ul>
+                        </li>
+                        <li><a href="#intro">ABSTRACT</a></li>
+                        <li><a href="#step1">INSTALL BASIC BUILDING BLOCKS</a></li>
+                        <li><a href="#step2">CREATE ROOT DIRECTORY</a></li>
+                        <li><a href="#step3">PULL SOURCE CODE FROM GITHUB</a></li>
+                        <li><a href="#step4">LOAD REQUIRED LIBRARIES</a></li>
+                        <li><a href="#step5">DOWNLOAD FLAT FILES, CONVERT TO JSON</a></li>
+                        <li><a href="#step6">START WEB SERVER</a></li>
+                        <li><a href="#step7">FIRE UP YOUR MASHUP AND EXPLORE!</a></li>
+                        <li><a href="#app">APPENDIX</a></li>
+                        
+                    </ul>
+                </div><!-- Sidebar -->
+            </div><!-- Row -->
+        </div><!-- Container-fluid -->
+    </div>
+
+</body>
+</html>
